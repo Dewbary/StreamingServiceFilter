@@ -157,3 +157,12 @@ button:focus {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+#git_link {
+  align-self: center;
+  color: white;
+}
+
+#git_link a {
+  text-decoration: none;
+}
