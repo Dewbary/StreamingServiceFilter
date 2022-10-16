@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Project #2</title>
+    <link rel="stylesheet" href="stylemovie.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="logo"><img src="logo.png" /></div>
+
+    <div class="carousel">
+      <button class="navigation_btn btn btn_left">
+        <div class="icon">
+          <svg>
+            <use xlink:href="#arrow-left"></use>
+          </svg>
+        </div>
+      </button>
+
+      <div class="carousel_box">
+        <!-- data comes here -->
+      </div>
+
+      <button class="navigation_btn btn btn_right">
+        <div class="icon">
+          <svg>
+            <use xlink:href="#arrow-right"></use>
+          </svg>
+        </div>
+      </button>
+    </div>
+
+    <div class="filters">
+      <div class="dropdown">
+        <button id="popular" class="dropbtn">Most Popular</button>
+      </div>
+
+      <div class="dropdown">
+        <button id="new" class="dropbtn">New movies</button>
+      </div>
+
+      <div class="dropdown">
+        <button id="family" class="dropbtn">Family Movies</button>
+      </div>
+    </div>
+
+    <svg class="icons" style="display: none">
+      <symbol
+        id="arrow-left"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+      >
+        <polyline
+          points="328 112 184 256 328 400"
+          style="
+            fill: none;
+            stroke: #fff;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 48px;
+          "
+        />
+      </symbol>
+      <symbol
+        id="arrow-right"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+      >
+        <polyline
+          points="184 112 328 256 184 400"
+          style="
+            fill: none;
+            stroke: #fff;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+            stroke-width: 48px;
+          "
+        />
+      </symbol>
+    </svg>
+
+    <script src="indexmovie.js"></script>
+  </body>
+</html>
